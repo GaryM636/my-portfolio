@@ -1,0 +1,398 @@
+/* nav and general css */
+.nb {
+    font-family: "Orbitron", sans-serif;
+    font-size: 1.2rem;
+}
+
+.navbar {
+    --bs-navbar-hover-color: #ff06b5;
+}
+
+html {
+    height: 100%;
+}
+
+.nbc {
+    border-bottom: #fff 1px solid;
+}
+
+.nav-link {
+    color: #fff
+}
+
+#bar {
+    font-family: "Libre Barcode 128 Text", system-ui;
+    font-size: 3.5rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Orbitron", sans-serif;
+    font-size: 1.2rem;
+    background-color: #000;
+    min-width: 260px;
+}
+
+#bgr {
+    background: linear-gradient(135deg, #ff06b5, #319bb1, #000 40%) no-repeat;
+}
+
+main {
+    min-height: 75vh;
+    color: #fff
+}
+
+.nav-link:hover {
+    color: #ff06b5;
+}
+
+
+footer {
+    width: 100%;
+    border-top: #fff 1px solid;
+    color: white;
+}
+
+.social {
+    font-size: 2rem;
+    margin: 0 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.fd {
+    display: flex;
+    color: #fff;
+    padding: 2rem 0;
+    height: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.fd h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.social {
+    display: flex;
+    list-style: none;
+}
+
+.social li {
+    margin: 3px 10px;
+}
+
+.main {
+    display: block;
+}
+
+.hov:hover {
+    transform: scale(1.05);
+}
+
+/* Contact Page */
+.contact-container {
+    position: relative;
+    margin: 16% auto;
+    padding-bottom: 10%;
+}
+
+.contact-container h3 {
+    font-family: 'Anurati', sans-serif;
+    font-size: 6vh;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.smc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.smc h3 {
+    font-family: 'Anurati', sans-serif;
+    font-size: 6vh;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.social-links-sm a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 2.5vh;
+}
+
+.info-sm {
+    font-size: 2.5vh;
+}
+
+.front,
+.back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: none;
+    transition: transform 0.6s;
+}
+
+.back {
+    transform: rotateY(180deg);
+}
+
+.smth {
+    display: flex;
+    flex-direction: row;
+}
+
+.info {
+    padding-right: 10rem;
+    font-size: larger;
+    line-height: 260%;
+}
+
+.info a:hover {
+    color: #ff06b5;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+.front {
+    flex-direction: column;
+}
+
+.flipped .front {
+    transform: rotateY(180deg);
+}
+
+.flipped .back {
+    transform: rotateY(360deg);
+}
+
+.social-links a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 2.5vh;
+}
+
+.social-links a:hover {
+    color: #ff06b5;
+}
+
+.flip-button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ff06b5;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.submit-button {
+    margin-top: 3%;
+    padding: 9px;
+    background-color: #ff06b5;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+/* resume page */
+
+.sk-ul {
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .sk-li {
+    margin-bottom: 1%;
+    list-style-type: none;
+    width: 48%;
+    box-sizing: border-box;
+    height: 11vh;
+  }
+
+  @media (max-width: 600px) {
+    .sk-li {
+      width: 100%;
+    }
+  }
+
+  .download {
+    color: #ff06b5;
+  }
+
+/* 404 css */
+
+.err-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6%;
+    padding-bottom: 6%;
+  }
+
+.h1-404 {
+    font-size: 10vh;
+}
+
+/* augconfig */
+
+.augconfig {
+    padding-bottom: 10%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 10%;
+    --aug-tl: 55px;
+    --aug-tr: 44px;
+    --aug-bl: 50px;
+    --aug-br: 5px;
+    --aug-b: 35px;
+    --aug-t: 44px;
+    --aug-br-inset2: 40%;
+    --aug-border-all: 10px;
+    --aug-border-bg: #FFBF00;
+    --aug-inlay-all: 10px;
+    --aug-inlay-bg: #fbe806;
+    background: rgba(0, 0, 0, .6);
+    color: #fff;
+}
+
+.augconfig-p {
+    margin-bottom: 1rem;
+    padding-bottom: 10%;
+    padding-left: 10%;
+    padding-right: 1rem;
+    padding-top: 3%;
+    --aug-tl: 55px;
+    --aug-br: 55px;
+    --aug-border-top: 5px;
+    --aug-border-right: 1px;
+    --aug-border-bottom: 1px;
+    --aug-border-bg: #FFBF00;
+    background: rgba(0, 0, 0, .6);
+    color: #fff;
+}
+
+.augconfig-h {
+    --aug-border-bg: #FFBF00;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    --aug-border-all: 2px;
+}
+
+.augconfig-sk {
+    --aug-border-bg: #FFBF00;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    --aug-border-all: 2px;
+    background: rgba(0, 0, 0, .6);
+}
+
+@media screen and (max-width: 992px) {
+    h4 {
+        font-size: 1.2rem;
+    }
+
+    .augconfig-p {
+        margin-bottom: 1rem;
+        padding-bottom: 10%;
+        padding-left: 10%;
+        padding-right: 1rem;
+        padding-top: 3%;
+        --aug-tl: 25px;
+        --aug-br: 35px;
+        --aug-border-top: 3px;
+        --aug-border-right: .5px;
+        --aug-border-bottom: .5px;
+    }
+
+    .spin {
+        display: none;
+    }
+}
+
+
+.swoop-in {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: swoopIn 2s ease-in forwards;
+}
+
+/* keyframes */
+
+@keyframes swoopIn {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin2 {
+    0% {
+        stroke-dasharray: 1, 800;
+        stroke-dashoffset: 0;
+    }
+
+    50% {
+        stroke-dasharray: 400, 400;
+        stroke-dashoffset: -200px;
+    }
+
+    100% {
+        stroke-dasharray: 800, 1;
+        stroke-dashoffset: -800px;
+    }
+}
+
+.spin2 {
+    transform-origin: center;
+    animation: spin2 2s ease-in-out infinite,
+        spin 1.9s linear infinite;
+    animation-direction: alternate;
+}
