@@ -37,7 +37,7 @@ const Resume = () => {
           <p>
             Please feel free to download my resume for a detailed overview of my professional experience and accomplishments.
           </p>
-          <a className='download' href="/path/to/your/resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a>
+          <a className='download' href="../../public/resume/resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a>
         </Col>
       </Row>
     </Container>
