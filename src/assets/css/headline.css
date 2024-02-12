@@ -283,3 +283,15 @@ h2 {
     animation: paths 5s step-end infinite, opacity 5s step-end infinite,
       font 7s step-end infinite, movement 8s step-end infinite;
   }
+
+  @media screen and (max-width: 550px) {
+    .glitch {
+       font-size: 6vh;
+   }   
+}
+
+@media screen and (max-width: 335px) {
+  .glitch {
+     font-size: 4vh;
+ }   
+}
