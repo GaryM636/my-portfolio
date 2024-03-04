@@ -21,8 +21,7 @@ const Footer = () => {
         <h3> Socials </h3>
         <ul className="social"> 
           <li><a href="https://github.com/garym636" target="_blank" rel="noreferrer"><i className="nav-link fa-brands fa-github"></i></a></li>
-          <li><a href="https://github.com/garym636" target="_blank" rel="noreferrer"><i className="nav-link fa-brands fa-linkedin"></i></a></li>
-          <li><a href="https://github.com/garym636" target="_blank" rel="noreferrer"><i className="nav-link fa-brands fa-stack-overflow"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/gary-muradyan-2846212b6/" target="_blank" rel="noreferrer"><i className="nav-link fa-brands fa-linkedin"></i></a></li>
         </ul>
       </div>
       </div>

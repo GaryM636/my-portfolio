@@ -16,8 +16,7 @@ const ContactSmallScreen = () => {
           <h3>Check Out My Projects</h3>
           <div className="social-links-sm">
             <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            <a href="https://stackoverflow.com/users/your-user-id" target="_blank" rel="noopener noreferrer">Stack Overflow</a>
+            <a href="https://www.linkedin.com/in/gary-muradyan-2846212b6/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           </div>
           <h3>Get In Touch</h3>
                 <div className='info-sm'>
