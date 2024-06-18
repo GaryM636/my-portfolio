@@ -1,4 +1,3 @@
-// Resume.jsx
 import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -11,6 +10,14 @@ const generateSkillsList = (skills) => {
       <strong>{item.skill}:</strong> {item.description}
     </li>
   ));
+};
+
+const handleDownload = (e) => {
+  e.preventDefault();
+  const link = document.createElement('a');
+  link.href = '/resume.pdf';
+  link.download = 'resume.pdf';
+  link.click();
 };
 
 const Resume = () => {
@@ -37,7 +44,7 @@ const Resume = () => {
           <p>
             Please feel free to download my resume for a detailed overview of my professional experience and accomplishments.
           </p>
-          <a className='download' href="../components/resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a>
+          <a className='download' href="/resume.pdf" onClick={handleDownload}>Download Resume</a>
         </Col>
       </Row>
     </Container>
